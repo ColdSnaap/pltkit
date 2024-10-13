@@ -27,13 +27,14 @@ from vasp import Dos, Band
 # print(kpoints)
 # print(kpath)
 # # print("\n")
-# structure = "/Users/qizhang/crystal_structure/paper3/structure/relaxed_structure/POSCAR_Zn_113"
-# # # # # structure = os.getcwd() + "/POSCAR"
-# # # ph = PhonopyInput(structure)
-# # # print(ph.band_conf())
+structure = "/Users/qizhang/crystal_structure/paper3/structure/relaxed_structure/POSCAR_Zn_113"
+# # structure = os.getcwd() + "/POSCAR"
+# ph = PhonopyInput(structure)
+# print(ph.band_conf())
 # # # # # result = ph.band_conf()
 # get_space_group(structure, symprec=2)
 
+print(high_symm_k_path(structure))
 # print(result)
 
 
@@ -71,8 +72,8 @@ from vasp import Dos, Band
 # x = mlp_CHGNet(file)
 # print(x)
 
-file = os.getcwd()+"/Zn.csv"
-csv_plot2(file, write_file=True)
+# file = os.getcwd()+"/Zn.csv"
+# csv_plot2(file, write_file=True)
 
 # print("haha")
 
