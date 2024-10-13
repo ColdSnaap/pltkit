@@ -61,4 +61,5 @@ x.band_plot(write=True)
 ```
 **Example Output:**
 
+![GeSe_phonon](https://github.com/user-attachments/assets/a76dfec2-b4f6-44d9-a28a-ac5633c1e9ce)
 
